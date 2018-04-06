@@ -17,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="210" column="20" selection-start-line="210" selection-start-column="20" selection-end-line="210" selection-end-column="20" />
+            <state relative-caret-position="442">
+              <caret line="243" column="82" selection-start-line="243" selection-start-column="82" selection-end-line="243" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -106,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523026842750</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added the main steps section">
+      <created>1523027803256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523027803256</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -145,13 +152,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="put some text and features" />
     <MESSAGE value="changed the title" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed the title" />
+    <MESSAGE value="added the main steps section" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the main steps section" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="210" column="20" selection-start-line="210" selection-start-column="20" selection-end-line="210" selection-end-column="20" />
+        <state relative-caret-position="442">
+          <caret line="243" column="82" selection-start-line="243" selection-start-column="82" selection-end-line="243" selection-end-column="82" />
         </state>
       </provider>
     </entry>
