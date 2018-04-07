@@ -156,6 +156,10 @@ img::-moz-selection {
   }
 }
 
+#team-color {
+  background-color: #00000480;
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -166,6 +170,18 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover
 }
+
+section.team {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url(../img/team.jpg);
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover
+}
+
 
 header.masthead hr {
   margin-top: 30px;
