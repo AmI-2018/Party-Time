@@ -40,6 +40,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #212529 !important
 }
 
+.bg-grey {
+  background-color: #848484 !important
+}
+
 .text-faded {
   color: rgba(255, 255, 255, .7)
 }
