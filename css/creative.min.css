@@ -92,7 +92,7 @@ img::selection {
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 180% }
+  to { width: 100% }
 }
 
 /* The typewriter cursor effect */
