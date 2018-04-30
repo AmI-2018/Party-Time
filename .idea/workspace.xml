@@ -27,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="320" column="39" lean-forward="true" selection-start-line="320" selection-start-column="39" selection-end-line="320" selection-end-column="39" />
+            <state relative-caret-position="378">
+              <caret line="321" column="103" lean-forward="false" selection-start-line="321" selection-start-column="103" selection-end-line="321" selection-end-column="103" />
               <folding />
             </state>
           </provider>
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525098974870</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="open issue fix">
+      <created>1525100222274</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525100222274</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -203,7 +210,8 @@
     <MESSAGE value="ami fix" />
     <MESSAGE value="mb-4" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="open issue fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="open issue fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -270,8 +278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="320" column="39" lean-forward="true" selection-start-line="320" selection-start-column="39" selection-end-line="320" selection-end-column="39" />
+        <state relative-caret-position="378">
+          <caret line="321" column="103" lean-forward="false" selection-start-line="321" selection-start-column="103" selection-end-line="321" selection-end-column="103" />
           <folding />
         </state>
       </provider>
