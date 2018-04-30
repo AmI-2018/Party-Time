@@ -281,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525097140557</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="pull">
+      <created>1525097185251</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1525097185251</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -353,7 +360,8 @@
     <MESSAGE value="navebar fix" />
     <MESSAGE value="added things for deliverable 2" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="pull" />
+    <option name="LAST_COMMIT_MESSAGE" value="pull" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
