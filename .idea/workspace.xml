@@ -274,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525095474216</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fix">
+      <created>1525097140557</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1525097140557</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -345,7 +352,8 @@
     <MESSAGE value="clear from duplicates" />
     <MESSAGE value="navebar fix" />
     <MESSAGE value="added things for deliverable 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="added things for deliverable 2" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
