@@ -1,0 +1,5 @@
+ul.inside-dot {
+    margin: auto;
+    list-style-type: disc;
+    list-style-position: inside;
+}
