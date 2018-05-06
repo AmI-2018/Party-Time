@@ -114,7 +114,8 @@ ul.inside-dot {
 
 }
 
+
 .video-user{
-    max-height: 80%;
-    width: auto;
+    padding: 20px;
+    width: 100%;
 }
