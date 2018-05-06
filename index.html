@@ -331,8 +331,8 @@
         </div>
     </div>
     <div class="container-fluid p-0">
-        <div class="row no-gutters text-center">
-            <div class="col-md-6 col-sm-4">
+        <div class="row no-gutters ">
+            <div class="col-md-4 col-sm-4 text-center">
 
                 <!-- Trigger the Modal -->
                 <img id="myImg" src="img/system_architecture_3.png" alt="System overview" class="img-half">
@@ -349,8 +349,6 @@
                     <!-- Modal Caption (Image Text) -->
                     <div id="caption"></div>
                 </div>
-
-
 
 
                 <!--
@@ -370,18 +368,37 @@
                 -->
 
             </div>
-            <div class="col-md-6 col-sm-4">
-                architecture hw and sw
+            <div class="col-md-8 col-sm-4">
+                <h5><b>Hardware and use</b></h5>
+                <dl>
+                    <dt>Guests phone</dt>
+                    <dd>
+                        Everything starts from the phone: the guest has an interface where he can choose the kind of
+                        music he likes and send the information to the raspberry
+                    </dd>
+                    <dt>Raspberry</dt>
+                    <dd>
+                        Receive the votes and with the majority male the playlists. It has his own music
+                        database and match it with the guests’ preferences, then sends the music to the light and audio system
+                    </dd>
+                    <dt>Speakers and lights</dt>
+                    <dd>
+                        They are the final status of the system, where the preferences are actuated and
+                        the music played to let the people enjoying the party
+                    </dd>
+                </dl>
             </div>
         </div>
-        <div class="container-fluid text-center video-user">
-            <video controls>
-                <source src="video/sys_architecture_video.mp4" type="video/mp4">
-            </video>
+    </div>
 
-        </div>
+    <div class="container-fluid text-center video-user">
+        <video controls>
+            <source src="video/sys_architecture_video.mp4" type="video/mp4">
+        </video>
 
     </div>
+
+
 </section>
 <!--not complete-->
 <section id="issue" class="bg-dark text-white">
