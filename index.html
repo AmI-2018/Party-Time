@@ -292,11 +292,17 @@
                     <div>
                         <ol class="text-left">
                             <li>The system will send the playlist to every guest after the party.</li>
-                            <li>The system starts with background music then after the expected number of people arrive at the
-                                party the playlist starts to play.</li>
-                            <li> if a guest choose a type of music that is not the same as the room where he is, the system can
-                                tell him in which room is playing the music he likes.</li>
-                            <li>Every guest is identified by a tag device, so every room will know the occupant location.</li>
+                            <li>The system starts with background music then after the expected number of people arrive
+                                at the
+                                party the playlist starts to play.
+                            </li>
+                            <li> if a guest choose a type of music that is not the same as the room where he is, the
+                                system can
+                                tell him in which room is playing the music he likes.
+                            </li>
+                            <li>Every guest is identified by a tag device, so every room will know the occupant
+                                location.
+                            </li>
                         </ol>
                     </div>
                 </a>
@@ -308,8 +314,10 @@
                         <ol class="text-left">
                             <li>An emergency interface can be implemented for safety reasons.</li>
                             <li>Guests can interact to each other by seeing their profiles and their preferences.</li>
-                            <li>If in the playlist there are equal songs the the multi party house will merge and converge into
-                                a one single party ready to be splitted again.</li>
+                            <li>If in the playlist there are equal songs the the multi party house will merge and
+                                converge into
+                                a one single party ready to be splitted again.
+                            </li>
                         </ol>
                     </div>
                 </a>
@@ -391,37 +399,46 @@
             -->
             <div class="col-md-8 col-sm-4">
                 <h5><b>Hardware and use</b></h5>
+                <a href="component-list.html"><b>See full list of components</b></a>
                 <dl class="style-border-right">
                     <dt>Guests phone</dt>
                     <dd>
-                        After joining the wireless network, an iOs or Android device will be able to connect to the guest page of the
+                        After joining the wireless network, an iOs or Android device will be able to connect to the
+                        guest page of the
                         system, choose the preferred kind of music.
                     </dd>
                     <dt>Server</dt>
                     <dd>
-                        A raspberry-based server for syncing the rooms and storing the music file. Also demanded to store the guests preferences
-                        and interact with the PHILIPS HUE system. The information, such as votes and location, will be stored
-                        in a sqlite3 database. It's capable of sync with the client the Playlist throw wireless connection.
+                        A raspberry-based server for syncing the rooms and storing the music file. Also demanded to
+                        store the guests preferences
+                        and interact with the PHILIPS HUE system. The information, such as votes and location, will be
+                        stored
+                        in a sqlite3 database. It's capable of sync with the client the Playlist throw wireless
+                        connection.
                     </dd>
                     <dt>Client</dt>
                     <dd>
-                        Client based on raspberry pi or raspberry zero w, to receive ,from the server, the playlist already
+                        Client based on raspberry pi or raspberry zero w, to receive ,from the server, the playlist
+                        already
                         mixed for the guest preference and play throw the audio source.
                     </dd>
                     <dt>Light system</dt>
                     <dd>
-                        Using PHILIPS HUE system, the server will assign a color for each kind of music available, and change
+                        Using PHILIPS HUE system, the server will assign a color for each kind of music available, and
+                        change
                         them for every kind of music mutation. So the rooms are color-tagged, to provide visual feedback
                         to users.
                     </dd>
                     <dt>Audio system</dt>
                     <dd>
-                        Every audio capable system is compatible with the PartyTime ecosystem, using 3.5mm jack with no modification
+                        Every audio capable system is compatible with the PartyTime ecosystem, using 3.5mm jack with no
+                        modification
                         or GPIO interface to stream throw optic cable.
 
                     </dd>
                 </dl>
             </div>
+
         </div>
     </div>
     <br>
