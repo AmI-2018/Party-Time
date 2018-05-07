@@ -326,9 +326,6 @@
 
                 <h2 class="section-heading">HW and SW architecture</h2>
                 <hr class="my-4">
-                <p class="mb-5">
-                    architecture description:
-                </p>
             </div>
         </div>
     </div>
@@ -370,6 +367,7 @@
                 -->
 
             </div>
+            <!--
             <div class="col-md-8 col-sm-4">
                 <h5><b>Hardware and use</b></h5>
                 <dl>
@@ -387,6 +385,40 @@
                     <dd>
                         They are the final status of the system, where the preferences are actuated and
                         the music played to let the people enjoying the party
+                    </dd>
+                </dl>
+            </div>
+            -->
+            <div class="col-md-8 col-sm-4">
+                <h5><b>Hardware and use</b></h5>
+                <dl class="style-border-right">
+                    <dt>Guests phone</dt>
+                    <dd>
+                        After joining the wireless network, an iOs or Android device will be able to connect to the guest page of the
+                        system, choose the preferred kind of music.
+                    </dd>
+                    <dt>Server</dt>
+                    <dd>
+                        A raspberry-based server for syncing the rooms and storing the music file. Also demanded to store the guests preferences
+                        and interact with the PHILIPS HUE system. The information, such as votes and location, will be stored
+                        in a sqlite3 database. It's capable of sync with the client the Playlist throw wireless connection.
+                    </dd>
+                    <dt>Client</dt>
+                    <dd>
+                        Client based on raspberry pi or raspberry zero w, to receive ,from the server, the playlist already
+                        mixed for the guest preference and play throw the audio source.
+                    </dd>
+                    <dt>Light system</dt>
+                    <dd>
+                        Using PHILIPS HUE system, the server will assign a color for each kind of music available, and change
+                        them for every kind of music mutation. So the rooms are color-tagged, to provide visual feedback
+                        to users.
+                    </dd>
+                    <dt>Audio system</dt>
+                    <dd>
+                        Every audio capable system is compatible with the PartyTime ecosystem, using 3.5mm jack with no modification
+                        or GPIO interface to stream throw optic cable.
+
                     </dd>
                 </dl>
             </div>
