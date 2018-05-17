@@ -78,7 +78,7 @@
                 <hr class="light my-4">
                 <p class="text-faded mb-4">
                     Here you can find the component and software for building your personal party-time project.
-                    The list is intended for a 3-room party, so, if more rooms are needed, consider adding more component,
+                    The list is intended for a 2-room party, so, if more rooms are needed, consider adding more component,
                     except for the server.
                 </p>
 
@@ -94,10 +94,11 @@
                 <h2 class="section-heading">The server</h2>
                 <hr class="light my-4">
                 <p class="mb-4">
-                    Based on Raspberry Pi 2 or newer one, the server is intended to control every room and store the music
-                    database. Ecc ecc
+                    Based on Raspberry Pi 2 or a newer one, the server is intended to control every room and store the music
+                    database and also the user's database. The main functions will be implemented on the server and so this will
+                    be our reasoning of the data received from all the other components.
                 </p>
-                <a class="btn btn-light btn-xl js-scroll-trigger" href="#client">CLIENT</a>
+                <a class="btn btn-dark  btn-xl js-scroll-trigger" href="#client">CLIENT</a>
             </div>
         </div>
     </div>
@@ -109,14 +110,48 @@
                 <h2 class="section-heading text-dark">The client</h2>
                 <hr class="light my-4">
                 <p class="text-faded mb-4">
-                    The client is to be intended as the room-hub, controlling every single light in that space, and so and so...
+                    The client is to be intended as the room-hub, controlling every single light in that space, it will
+                    receive the playlist to play and will update the server about the distance between the users and the
+                    estimote location beacon.
                 </p>
-
-                <a class="btn btn-light btn-xl js-scroll-trigger" href="#lights">LIGHTS</a>
+                <a class="btn btn-light btn-xl js-scroll-trigger" href="#other">OTHER hardware</a>
             </div>
         </div>
     </div>
 </section>
+<section class="bg-white" id="other">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 mx-auto text-center">
+                <h2 class="section-heading">Other Components</h2>
+                <hr class="light my-4">
+                <p class="mb-4">
+                    The estimote location beacon will detect the power of the signal of other bluetooth devices present.
+                    Then it will communicate with the client.
+                    The philips hue will give the guests a clear understanding of the kind of music present in the room.
+                    The speakers are the main device to deliver the music for the whole room.
+                </p>
+                <a class="btn btn-dark  btn-xl js-scroll-trigger" href="#software">SOFTWARE</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-grey" id="software">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 mx-auto text-center">
+                <h2 class="section-heading text-dark">Software</h2>
+                <hr class="light my-4">
+                <p class="text-faded mb-4">
+                    The main features are implemented by our software it will reason and interact with guests.
+                    The registration of the users will be implemented through a telegram bot and it will provide the
+                    voting functionalities described previously.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
 <section id="video">
     <div class="container-fluid text-center video-user">
         <video  controls>
