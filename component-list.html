@@ -81,9 +81,8 @@
                     <img  src="img/hw.png" alt="HW" width="450" height="250">
                 </p>
                 <p class="text-faded mb-4">
-                    Here you can find the component and software for building your personal party-time project.
-                    The list is intended for a 2-room party, so, if more rooms are needed, consider adding more component,
-                    except for the server.
+                    Here you can find the component and software for building your personal party-time project.<br />
+                    The list is intended for general number of room, to let the host decide the needed structure, without any constraint.
                 </p>
 
                 <a class="btn btn-light btn-xl js-scroll-trigger" href="#server">Start building!</a>
@@ -99,8 +98,8 @@
                 <hr class="light my-4">
                 <p class="mb-4">
                     Based on Raspberry Pi 2 or a newer one, the server is intended to control every room and store the music
-                    database and also the user's database. The main functions will be implemented on the server and so this will
-                    be our reasoning of the data received from all the other components.
+                    and user's database.<br />
+                    The server will response for guest's tracking during the party, and generate playlists for every room.
                 </p>
                 <a class="btn btn-dark  btn-xl js-scroll-trigger" href="#client">CLIENT</a>
             </div>
@@ -114,9 +113,8 @@
                 <h2 class="section-heading text-dark">The client</h2>
                 <hr class="light my-4">
                 <p class="text-faded mb-4">
-                    The client is to be intended as the room-hub, controlling every single light in that space, it will
-                    receive the playlist to play and will update the server about the distance between the users and the
-                    estimote location beacon.
+                    The client is to be intended as the room-hub, controlling every single light in that space.<br />
+                    It will receive the playlist regularly, playing always the newest one.
                 </p>
                 <a class="btn btn-light btn-xl js-scroll-trigger" href="#other">OTHER hardware</a>
             </div>
@@ -127,13 +125,17 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 mx-auto text-center">
-                <h2 class="section-heading">Other Components</h2>
+                <h2 class="section-heading">Hardware</h2>
                 <hr class="light my-4">
                 <p class="mb-4">
-                    The estimote location beacon will detect the power of the signal of other bluetooth devices present.
-                    Then it will communicate with the client.
-                    The philips hue will give the guests a clear understanding of the kind of music present in the room.
-                    The speakers are the main device to deliver the music for the whole room.
+                  The structure is splitted into two main part:<br>
+                  ROOM-INDIPENDENT:<br>
+                  The PartyTime server, designed to run efficiently on a single Raspberry Pi (2 or newer)<br />
+                  ROOM-DIPENDENT:<br>
+                  For every room, some hardware is needed.<br />
+                  One Raspberry Pi, equipped with wireless adaptor or integrated chipset, to host a PartyTime client.<br />
+                  One or more Philips hue color bulb.<br />
+                  Dependino on the room dimension, one or more Beacon and Speakers.
                 </p>
                 <a class="btn btn-dark  btn-xl js-scroll-trigger" href="#software">SOFTWARE</a>
             </div>
@@ -147,16 +149,12 @@
                 <h2 class="section-heading text-dark">Software</h2>
                 <hr class="light my-4">
                 <p class="text-faded mb-4">
-                    The main features are implemented by our software it will reason and interact with guests.
-                    The registration of the users will be implemented through a telegram bot and it will provide the
-                    voting functionalities described previously.
-                </p>
-                <p>
                   sqlite3 for local Database<br />
                   FTP for music sync<br />
                   iOs app developed in Swift 4<br />
                   Flask for API implementation<br />
-                  Hue API as light sistem
+                  Hue API as light sistem<br />
+                  Zeroconf/Bonjour to automatically find the server
                 </p>
             </div>
         </div>
@@ -176,7 +174,7 @@
         <h2>List of components</h2>
     </div>
     <div>
-        <dl>
+        <dl
             <dt>Raspberry Pi 2+</dt>
             <dd>As server</dd>
             <dt>Raspberry zero w or Raspberry Pi 2+</dt>
